@@ -1,0 +1,12 @@
+.navbar div {
+	display: inline-block;
+}
+
+.container {
+	background-color: black;
+}
+
+.content {
+	background-color: white
+	margin: 200px;
+}
