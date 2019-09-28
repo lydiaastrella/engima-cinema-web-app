@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'left right';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.header {
+	grid-area: header;
+}
+
+.left {
+	grid-area: left;
+}
+
+.right {
+	grid-area: right;
+}
