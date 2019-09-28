@@ -113,21 +113,23 @@ background-color: #262626;
 	}
 
 		.mainmoviecontainer{
-			
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 			.mainmovieposter{
 				display: flex;
 				justify-content: center;
 				background-color: #262626;
-				height: 150px;
-				width: 100px;
+				height: 170px;
+				width: 140px;
 				border-radius: 15px;
 			}
 
 			.mainmovietitle{
 				font-weight: 500;
 				text-align: center;
+				margin: 5px 3px 5px 3px;
 			}
 
 			.mainratingcontainer{
@@ -136,9 +138,11 @@ background-color: #262626;
 
 			.ratingstar{
 				color: #fdbb02;
+				margin: 0px 5px 5px 3px;
 			}
 
 			.textrating{
 				font-size: 12px;
 				color: #808080;
+				margin: 2px 0px 5px 0px;
 			}
