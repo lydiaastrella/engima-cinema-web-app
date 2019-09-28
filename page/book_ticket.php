@@ -19,10 +19,21 @@
 		<div class="content">
 			<div class="grid-container">
 				<div class="header">
-					P
+					<div id="back"><a href="home.php">&lsaquo;</a></div>
+					<h2>P</h2>
+					<h3>P</h3>
 				</div>
-				<div class="left">P</div>
-				<div class="right">P</div>
+				<div class="left">
+					<button class="screen" disabled>Screen</button>
+				</div>
+				<div class="right">
+					<h2>Booking Summary</h2>
+					<p class="seat-not-clicked">You haven't selected any seat yet</p>
+					<h3 class="judul"></h3>
+					<p class="jadwal"></p>
+					<h3 class="no-seat"></h3>
+					<button class="buy-ticket">Buy Ticket</button>
+				</div>
 			</div>
 		</div>
 	</div>
