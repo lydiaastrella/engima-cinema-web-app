@@ -24,6 +24,8 @@
 					<h3>P</h3>
 				</div>
 				<div class="left">
+					<?php include('../php/book_ticket.php') ?>
+					<script src="../js/book_ticket.js"></script>
 					<button class="screen" disabled>Screen</button>
 				</div>
 				<div class="right">
