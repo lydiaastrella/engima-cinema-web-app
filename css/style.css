@@ -1,5 +1,9 @@
 body {
 	margin: 0;
+	font-family: Lato;
+	src: url("../font/Lato-Regular.eot");
+	src: url("../font/Lato-Regular.woff") format("woff"),
+	url("../font/Lato-Regular.otf") format("opentype");
 }
 .navbar {
 	display: block;
