@@ -1,0 +1,135 @@
+
+p, h1, h2, h3 {
+  font-family: lato, Arial, Verdana;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 3px solid #f1f1f1;
+  background-color: white;
+  box-shadow:1px;
+  }
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap:nowrap;
+}
+
+.flex-container > div {
+  margin: 0 5px;
+  width:100%;
+}
+button {
+  border: none;
+  background-color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: lato, arial, verdana;
+  margin: 4px 100px 4px 200px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+button.submit {
+  background-color: #00BFFF;
+  border: 1px solid #ccc;
+  color: white;
+  margin: 0 0 0 0;
+}
+button.cancel {
+  border: 1px solid #ccc;
+  color: darkgrey;
+  margin: 0 0 0 700px;
+}
+
+button.submit:hover {
+  opacity: 0.8;
+}
+
+input[type=text], input[type=password] {
+  width: 350px;
+  text-align: justify;
+  padding: 12px 20px;
+  margin: 4px 0px 4px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=text].review {
+  height: 150px;
+  width: 500px;
+}
+
+.page {
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 30px auto;
+  background-color:white;
+}
+
+html, body {
+  background-color: black;
+  height:100%;
+  margin: 0;
+}
+
+.add {
+  margin:0 80px 0 260px;
+  display:flex;
+}
+
+#engi {
+  color:#00BFFF;
+}
+
+#tsc {
+  margin: 4px 0px 4px 200px;
+}
+
+#lo {
+  margin: 4px 0px 4px 0px;
+}
+
+#ttl {
+  margin:80px 30px;
+}
+
+#rtg {
+  margin: 0 30px 0 0;
+}
+
+#flex {
+  display: flex;
+}
+
+#addr {
+  margin: 0 30px 0 0;
+}
+
+#star {
+  width:23px;
+  height:23px; 
+  margin: 0;
+}
+
