@@ -25,19 +25,20 @@
 				</div>
 				<div class="left">
 					<?php include('../php/book_ticket.php') ?>
-					<script src="../js/book_ticket.js"></script>
 					<button class="screen" disabled>Screen</button>
 				</div>
 				<div class="right">
 					<h2>Booking Summary</h2>
-					<p class="seat-not-clicked">You haven't selected any seat yet</p>
-					<h3 class="judul"></h3>
-					<p class="jadwal"></p>
-					<h3 class="no-seat"></h3>
-					<button class="buy-ticket">Buy Ticket</button>
+					<p id="seat-not-clicked">You haven't selected any seat yet</p>
+					<h3 id="judul">P</h3>
+					<p id="jadwal">P</p>
+					<h3 id="no-seat">P</h3>
+					<br>
+					<button id="buy-ticket-button">Buy Ticket</button>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script src="../js/book_ticket.js"></script>
 </body>
 </html>

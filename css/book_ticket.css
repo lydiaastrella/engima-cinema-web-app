@@ -30,7 +30,7 @@ h2, h3 {
 	justify-content: center;
 }
 
-.flex-container > div {
+.empty-seat {
   border: 1.5px solid #00C4EA;
   border-radius: 2px;
   margin: 5px;
@@ -43,10 +43,6 @@ h2, h3 {
   color: #00C4EA;
 }
 
-.empty-seat:hover {
-	background-color: #00C4EA;
-	color: white;
-}
 .right {
 	grid-area: right;
 	width: 400px;
@@ -54,6 +50,14 @@ h2, h3 {
 	border-left: 1px solid #888888;
 	padding-left: 50px;
 }
+
+#judul, #jadwal {
+	color: white;
+}
+
+#no-seat {
+	display: none;
+} 
 
 .screen {
 	width: 100%;
@@ -78,7 +82,7 @@ h2, h3 {
   color: #00C4EA;
 }
 
-.buy-ticket {
+#buy-ticket-button {
 	float: right;
 	background-color: #00C4EA;
 	color: white;
