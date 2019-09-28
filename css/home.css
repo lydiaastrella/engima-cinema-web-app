@@ -46,20 +46,61 @@ background-color: #262626;
 	margin-left: 20%;
 	margin-right: 80%;
 	background-color: white;
+	white-space: nowrap;
 }
 
-.hellotitle{
-	position: fixed;
-}
-	.texthello{
-	margin-right: 5px;
-	float:left;
+	.hellotitle{
+		font-weight: bold;
+		font-size: 25px;
+	}
+		.texthello{
+			display: inline-block;
+			margin-right: 5px;
+		}
+
+		.textusername{
+			display: inline-block;
+			color: blue;
+		}
+
+	.nowplaying{
+		
+	}
+		.textnowplaying{
+
+		}
+
+	.mainlistmoviecontainer{
+		display: flex;
 	}
 
-	.textusername{
-	float:left;
-	}
+		.mainmoviecontainer{
+			
+		}
 
-.textnowplaying{
-	float:left;
-}
+			.mainmovieposter{
+				display: flex;
+				justify-content: center;
+				background-color: #262626;
+				height: 150px;
+				width: 100px;
+				border-radius: 15px;
+			}
+
+			.mainmovietitle{
+				font-weight: 500;
+				text-align: center;
+			}
+
+			.mainratingcontainer{
+				display: inline-flex;
+			}
+
+			.ratingstar{
+				color: #fdbb02;
+			}
+
+			.textrating{
+				font-size: 12px;
+				color: #808080;
+			}
