@@ -5,10 +5,11 @@
     <meta charset="utf-8" />
     <title></title>
     <link rel = "stylesheet" href="style1.css">
+	<script type="text/javascript" src="cookie.js"></script>
 </head>
 
 <body>
-<form action = "login_handler.php" method = "post">
+<form id = 'emailid' action = "login_handler.php" method = "post">
   <div class= "head1">
     <p>Welcome to <strong>Engi</strong>ma!</p>
   </div>
@@ -19,7 +20,7 @@
     <label for="psw">Password</label>
     <input type="password" placeholder="place here" name="psw" required>
         
-	<input type="submit" name = "create" value = "Login">
+	<input onClick = "setCookie('email)" type="submit" name = "create" value = "Login">
     <div>
 	  <p style="text-align:center;"><b>Don't have an account? <a href="../register/register.php">Register here</a></b></p>
 	</div>
