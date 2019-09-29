@@ -101,51 +101,6 @@ Pengguna menulis ulasan film pada halaman ini. Pengguna dapat memberikan ulasan 
 
 Jika pengguna belum pernah mengulas film tersebut atau telah menghapus ulasannya, pengguna dapat memberikan ulasannya dengan tombol "Submit" atau membatalkan ulasan dengan menekan tombol "Cancel". Jika pengguna telah memberikan ulasan dan belum dihapus, akan ada tombol "Submit" digantikan dengan tombol "Edit" untuk mengubah ulasan. Saat pengguna akan mengubah ulasan, informasi rating dan deskripsi ulasan akan muncul pada halaman ini.
 
-## Keterangan Tambahan
-
-* Jam pada aplikasi web mengacu pada jam lokal pengguna.
-* Basis data didefinisikan sendiri.
-
-## Bonus
-
-*Catatan: Kerjakan dahulu spesifikasi wajib sebelum mengerjakan bonus.*
-
-1. Data yang disimpan pada cookie memiliki *expiry time*. Jika *access token* ini tidak ada atau tidak valid, maka pengguna dianggap belum *login*. *Expiry time* sebuah *access token* berbeda dengan waktu berlaku cookie.
-2. Pada halaman **Buy Ticket**, ketersediaan kursi diperbaharui secara *real-time*. Contoh jika pengguna A memilih kursi 1 dan ternyata pengguna B telah membeli kursi tersebut, maka ketersediaan kursi perlu diperbaharui. Akibatnya, pengguna A tidak dapat membeli kursi 1. Pembaharuan ketersediaan kursi menggunakan AJAX.
-3. Tampilan dibuat responsif (minimal untuk ukuran 1280x768 dan 800x600). Artinya, tampilan mungkin berubah menyesuaikan ukuran layar.
-
-## Knowledge
-
-Untuk meringankan beban tugas ini, ada beberapa *keyword* yang bisa Anda cari untuk menyelesaikan tugas ini.
-
-|              | Kata Kunci                                                                                            |
-| ------------ | ----------------------------------------------------------------------------------------------------- |
-| HTTP methods | get, post, put, delete                                                                                |
-| CSS          | margin, padding, font-size, text-align, flex, grid, border, color, div, span, anchor tag, box-shadow  |
-| Javascript   | XMLHTTPRequest, addEventListener                                                                      |
-| PHP          | mysqli_connect, mysql_query, $_GET, $_POST, $_COOKIE, var_dump, print_r, echo, require, fungsi header |
-| SQL query    | SELECT, INSERT, UPDATE, DELETE, WHERE, operator LIKE                                                  |
-
-Jika ada pertanyaan, silahkan tanya lewat sheet ini: https://docs.google.com/spreadsheets/d/138nSoyPRBhrIZersCjrHzOmW5CevxXj94x-FslHQ1Zs/edit?usp=sharing
-
-## Anggota Tim
-Anggota tim dapat dilihat di sheet ini: https://docs.google.com/spreadsheets/d/1u46VRn_9sAVn2TV5SverJWrTN4KKnAFJ6bCGM-cjvUc/edit?usp=sharing.
-
-## Petunjuk Pengerjaan
-
-1. Buatlah grup pada Gitlab dengan format "IF3110-2019-01-KXX-YY", dengan **XX** adalah nomor kelas dan **YY** adalah nomor kelompok.
-2. Tambahkan anggota tim pada grup anda.
-3. Fork pada repository ini dengan grup yang telah dibuat.
-4. Ubah hak akses repository hasil Fork anda menjadi private.
-5. Silakan commit pada repository anda (hasil fork). Lakukan beberapa commit dengan pesan yang bermakna, contoh: `add register form`, `fix logout bug`, jangan seperti `final`, `benerin dikit`, `fix bug`. Disarankan untuk tidak melakukan commit dengan perubahan yang besar karena akan mempengaruhi penilaian (contoh: hanya melakukan satu commit kemudian dikumpulkan). Sebaiknya commit dilakukan setiap ada penambahan fitur. Commit dari setiap anggota tim akan mempengaruhi penilaian. Jadi, setiap anggota tim harus melakukan commit yang berpengaruh terhadap proses pembuatan aplikasi.
-6. Buatlah file **README** yang berisi:
-    * Deskripsi aplikasi web
-    * Daftar *requirement*
-    * Cara instalasi
-    * Cara menjalankan *server*
-    * *Screenshot* tampilan aplikasi, dan
-    * Penjelasan mengenai pembagian tugas masing-masing anggota (lihat formatnya pada bagian pembagian tugas).
-7. Buatlah file **DokumentasiAPI.html** untuk dokumentasi API yang telah dibuat. Gunakan https://swagger.io/ untuk membuat dokumentasi dengan format Documentation **html2**.
 
 ## Cara Instalasi
 
