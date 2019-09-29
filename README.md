@@ -147,26 +147,35 @@ Anggota tim dapat dilihat di sheet ini: https://docs.google.com/spreadsheets/d/1
     * Penjelasan mengenai pembagian tugas masing-masing anggota (lihat formatnya pada bagian pembagian tugas).
 7. Buatlah file **DokumentasiAPI.html** untuk dokumentasi API yang telah dibuat. Gunakan https://swagger.io/ untuk membuat dokumentasi dengan format Documentation **html2**.
 
-## Pengumpulan Tugas
+## Cara Instalasi
 
-Deadline tugas adalah pada **hari Minggu, 29 September 2019 pukul 15.00 WIB**. Waktu pengumpulan tugas yang dilihat adalah **waktu *push* ke server Gitlab** terakhir.
+Instalasi dilakukan dengan mendownload source code dan melakukan instalasi xampp
+
+
+## Cara menjalankan server
+
+Server dijalankan dengan menggunakan xampp. Buka xampp control panel. Klik start pada modul Apache dan MySQL.
+
 
 ## Pembagian Tugas
 
-Setiap anggota kelompok **diwajibkan** untuk mengerjakan bagian frontend dan backend.
-
 ### Frontend
-1. Login : 13517xxx, 13517xxx
-2. Register : 13517xxx
-3. (Lanjutkan …)
+1. Login : 13517130
+2. Register : 13517130
+3. User review : 13517019
+4. Home : 13517019
+5. Search Result : 13517019
+6. Film Detail : 13517019
+7. Buy Ticket : 13517127
+8. Transaction History : 13517127
 
 ### Backend
-1. Login : 13517xxx, 13517xxx
-2. Register : 13517xxx
-3. (Lanjutkan…)
+1. Login : 13517130
+2. Register : 13517130
+3. User review : 13517019
+4. Home : 13517019
+5. Search Result : 13517019
+6. Film Detail : 13517019
+7. Buy Ticket : 13517127
+8. Transaction History : 13517127
 
-## About
-
-Asisten IF3110 - 2019
-
-Shevalda | Fahmi | Teresa | Yonas | Gery | Alif
