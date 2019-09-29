@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <title></title>
-  <link rel = "stylesheet" href="style2.css">
+  <link rel = "stylesheet" href="../css/style2.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 <br>
 <div class="page">
   <div id="flex">
-    <div><a href='transaction.php'><img src="vectorpaint.svg" alt="back" style="width:30px;height:30px;margin:80px 0 0 80px;"></a></div>
+    <div><a href='../php/transaction.php'><img src="vectorpaint.svg" alt="back" style="width:30px;height:30px;margin:80px 0 0 80px;"></a></div>
 	<div><h2 id="ttl"><b><?php include "userrev_handler.php";?></h2></div>
   </div>
   <form action = "userrev_review.php" method = "post">
