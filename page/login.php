@@ -21,7 +21,7 @@
         
 	<input type="submit" name = "create" value = "Login">
     <div>
-	  <p style="text-align:center;"><b>Don't have an account? <a href="//www.google.com">Register here</a></b></p>
+	  <p style="text-align:center;"><b>Don't have an account? <a href="../register/register.php">Register here</a></b></p>
 	</div>
   </div>
 </form>
