@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -38,7 +38,7 @@ echo '</script>';
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
-//header("location:register.php");
+header("location:transaction.php");
 
 $conn->close();
 ?>
