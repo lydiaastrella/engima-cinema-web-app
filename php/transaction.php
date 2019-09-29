@@ -15,7 +15,7 @@
 	$judul = $_POST['judul'];
 	$tanggal = $_POST['tanggal'];
 	$waktu = $_POST['waktu'];
-	$url_foto $_POST['url_foto'];
+	$url_foto = $_POST['url_foto'];
 
 	//$data = mysqli_query($conn, "select email, password from user where email='$email' and password='$password'");
 
