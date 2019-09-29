@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel = "stylesheet" href="style1.css">
+    <link rel = "stylesheet" href="../css/style1.css">
 </head>
 
 <body>
-<form action = "register_handler.php" method = "post">
+<form action = "../php/register_handler.php" method = "post">
   <div class= "head2">
     <p>Welcome to <strong>Engi</strong>ma!</p>
   </div>
