@@ -1,0 +1,206 @@
+body {
+	margin: 0;
+	font-family: Lato;
+}
+.navbar {
+	display: block;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	box-shadow: 0px 5px 5px #888888;
+	height: 40px;
+	width: 100%;
+	background-color: white;
+}
+.navbar-box {
+	margin: 0px 150px 0px;
+	padding: 10px;
+}
+
+.navbar #Engi {
+	margin: 0px 0px 0px 50px;
+	float: left;
+	color: #0dc4ed;
+	font-weight: 800;
+}
+
+.navbar #ma{
+	margin: 0px 50px 0px 0px;
+	float: left;
+	font-weight: 800;
+}
+
+.navbar-box input{
+	padding: 6px 0px 6px 6px;
+    border: 1px solid #a5a5a5;
+	border-right: none;
+	border-radius: 4px 0px 0px 4px;
+    font-size: 9px;
+	float: left;
+}
+
+.navbar-box button{
+	padding: 6px 6px 6px 0px;
+	background: white;
+	color: #b7b7b7;
+	font-size: 9px;
+	border: 1px solid #a5a5a5;
+	border-left: none; /* Prevent double borders */
+	border-radius: 0px 4px 4px 0px;
+	cursor: pointer;
+	float: left;
+}
+
+.menu {
+	float: right;
+	margin: 0px 30px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.asideleft{
+position: fixed;
+left: 0;
+width: 10%;
+height: 100%;
+background-color: #262626;
+}
+
+.asideright{
+position: fixed;
+right: 0;
+width: 10%;
+height: 100%;
+background-color: #262626;
+}
+
+.maincontainer{
+	margin-top: 40px;
+	margin-left: 10%;
+	margin-right: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: white;
+	white-space: nowrap;
+}
+
+    .detailmoviecontainer{
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        max-width: 1075px;
+        padding-top: 40px;
+    }
+
+        .detailpostercontainer{
+            float: left;
+        }
+
+            .detailmovieposter{
+                justify-content: center;
+                background-color: #262626;
+                height: 200px;
+                width: 150px;
+                border-radius: 15px;
+            }
+
+        .detailinfocontainer{
+            margin: 5px 150px 5px 10px;
+            width: 1050px;
+        }
+
+            .detailmovietitle{
+                font-size: 20px;
+                padding-left: 140px;
+                margin: 10px 10px 10px 10px;
+                font-weight: bold;
+            }
+
+            .genreruntimecontainer{
+                color: #0dc4ed;
+                font-size: 13px;
+                font-weight: bold;
+                display: inline-flex;
+            }
+
+                .genre{
+                    margin: 5px 5px 5px 10px;
+                }
+
+                .divider{
+                    margin: 5px 5px 5px 5px;
+                }
+
+                .runtime{
+                    margin: 5px 5px 5px 5px;
+                }
+
+            .releaseddate{
+                color: #808080;
+                font-size: 13px;
+                font-weight: bold;
+                padding-left: 140px;
+                margin: 10px 10px 10px 10px;
+            }
+
+            .detailratingcontainer{
+                display: inline-flex;
+            }
+
+                .detailratingstar{
+                    display:inline;
+                    margin: 0px 10px 5px 3px;
+                }
+
+                .fa-star{
+                    color: #fdbb02;
+                    margin-right: 7px;
+                    padding-left: 10px;
+                }
+
+                .detailtextrating{
+                    font-weight: bold;
+                    font-size: 15px;
+                    color: #757575;
+                    margin: 2px 0px 5px 0px;
+                }
+
+                .detail10rating{
+                    font-size: 12px;
+                    color: #a5a5a5;
+                    margin: 5px 0px 3px 0px;
+                }
+
+            .detailmovieoverview{
+                font-size: 15px;
+                padding-left: 10px;
+                margin: 5px 5px 50px 5px;
+                max-width: 910px;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                max-lines: 3;
+                overflow-x: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
+            }
+
+/*<article class="detailmoviecontainer">
+            <div class="detailpostercontainer">
+                <img class="detailmovieposter" src="not-found.jpg">
+            </div>
+            <div class="detailinfocontainer">
+                <p class="detailtmovietitle">Title</p>
+                <div class="genreruntimecontainer">
+                    <p class="genre">Placeholder, Placeholder, Placeholder</p>
+                    <p class="|">|</p>
+                    <p class="runtime">runtime mins</p>
+                </div>
+                <p class="releaseddate">Released date : 14 April 2019</p>
+                <div class="detailratingcontainer">
+                    <div class="detailratingstar"><i class="fa fa-star"></i></div>
+                    <p class="detailtextrating">8.75</p>
+                </div>
+                <p class="detailmovieoverview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit id lectus ut porta. Aenean quis ante tortor. Donec id augue tellus. Phasellus sed feugiat mi. Nulla odio nibh, tempus at tellus a, maximus tincidunt neque. Cras ac diam ex. Nulla ornare tincidunt nisi. Vivamus ac eleifend orci, eget tincidunt metus.</p>
+            </div>
+        </article>*/
