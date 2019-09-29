@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title></title>
     <link rel = "stylesheet" href="style1.css">
-	<script type="text/javascript" src="cookie.js"></script>
+	<script type="text/javascript" src="../js/cookie.js"></script>
 </head>
 
 <body>
