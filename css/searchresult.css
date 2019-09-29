@@ -199,3 +199,32 @@ background-color: #262626;
             hr{
                 margin-top: 50px;
             }
+
+        footer{
+            text-align: center;
+        }
+
+            .pagebuttoncontainer{
+                display: inline-block;
+            }
+
+                .Back{
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    color: #0dc4ed;
+                }
+
+                .pagebox{
+                    background: transparent;
+                    color: #0dc4ed;
+                    border-color: #0dc4ed;
+                    border-radius: 5px;
+                }
+
+                .Next{
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    color: #0dc4ed;
+                }
