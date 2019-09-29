@@ -10,8 +10,8 @@
 		<div class="navbar-box">
 			<a id="logo"><strong>Engi</strong>ma</a>
 			<input id="search-bar" type="text" placeholder="Search Movie">
-			<a class="menu">Logout</a>
-			<a class="menu">Transaction</a>
+			<a class="menu" href="login.php">Logout</a>
+			<a class="menu" href="transaction.php">Transaction</a>
 		</div>
 	</div>
 	<div class="container">
