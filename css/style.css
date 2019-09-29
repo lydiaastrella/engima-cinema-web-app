@@ -1,9 +1,6 @@
 body {
 	margin: 0;
-	font-family: Lato;
-	src: url("../font/Lato-Regular.eot");
-	src: url("../font/Lato-Regular.woff") format("woff"),
-	url("../font/Lato-Regular.otf") format("opentype");
+	font-family: Railway, Lato;
 }
 .navbar {
 	display: block;
@@ -23,7 +20,19 @@ body {
 .menu {
 	float: right;
 	margin: 0px 30px 0px;
+	font-size: 14px;
 }
+
+.navbar-box a { 
+	color: #212121;
+	text-decoration: none;
+}
+
+.navbar-box a:hover, .navbar-box a:visited, .navbar.box a:active .navbar.box a:link { 
+	color: #212121;
+	text-decoration: none;
+}
+
 .container {
 	background-color: #212121;
 	min-height: 550px;
@@ -36,6 +45,7 @@ body {
 }
 #logo {
 	margin: 0px 50px 0px;
+	font-size: 18px;
 }
 
 #logo strong {
