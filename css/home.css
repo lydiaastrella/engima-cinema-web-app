@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: Lato;
 }
 .navbar {
 	display: block;
@@ -16,20 +17,136 @@ body {
 	margin: 0px 150px 0px;
 	padding: 10px;
 }
+
+.navbar #Engi {
+	margin: 0px 0px 0px 50px;
+	float: left;
+	color: #0dc4ed;
+	font-weight: 800;
+}
+
+.navbar #ma{
+	margin: 0px 50px 0px 0px;
+	float: left;
+	font-weight: 800;
+}
+
+.navbar-box input{
+	padding: 6px 0px 6px 6px;
+    border: 1px solid #a5a5a5;
+	border-right: none;
+	border-radius: 4px 0px 0px 4px;
+    font-size: 9px;
+	float: left;
+}
+
+.navbar-box button{
+	padding: 6px 6px 6px 0px;
+	background: white;
+	color: #b7b7b7;
+	font-size: 9px;
+	border: 1px solid #a5a5a5;
+	border-left: none; /* Prevent double borders */
+	border-radius: 0px 4px 4px 0px;
+	cursor: pointer;
+	float: left;
+}
+
 .menu {
 	float: right;
 	margin: 0px 30px 0px;
+	font-weight: bold;
+	font-size: 15px;
 }
-.container {
-	background-color: black;
-	height: 100%
+
+.asideleft{
+position: fixed;
+left: 0;
+width: 10%;
+height: 100%;
+background-color: #262626;
 }
-.content {
-	margin: 10px 100px 10px;
-	padding: 20px;
-	height: 100%;
+
+.asideright{
+position: fixed;
+right: 0;
+width: 10%;
+height: 100%;
+background-color: #262626;
+}
+
+.maincontainer{
+	margin-top: 40px;
+    overflow-wrap: break-word;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
 	background-color: white;
+	white-space: nowrap;
 }
-#logo {
-	margin: 0px 50px 0px;
-}
+
+	.hellotitle{
+		font-weight: bold;
+		font-size: 25px;
+	}
+		.texthello{
+			display: inline-block;
+			margin-right: 5px;
+		}
+
+		.textusername{
+			display: inline-block;
+			color: #0dc4ed;
+		}
+
+	.nowplaying{
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}
+		.textnowplaying{
+			display: inline;
+			font-weight: bold;
+		}
+
+	.mainlistmoviecontainer{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: left;
+	}
+
+		.mainmoviecontainer{
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+			.mainmovieposter{
+				display: flex;
+				justify-content: center;
+				background-color: #262626;
+				height: 170px;
+				width: 140px;
+				border-radius: 15px;
+			}
+
+			.mainmovietitle{
+				font-weight: 500;
+				text-align: center;
+				margin: 5px 3px 5px 3px;
+			}
+
+			.mainratingcontainer{
+				display: inline-flex;
+			}
+
+			.ratingstar{
+				color: #fdbb02;
+				margin: 0px 5px 5px 3px;
+			}
+
+			.textrating{
+				font-size: 12px;
+				color: #808080;
+				margin: 2px 0px 5px 0px;
+			}
