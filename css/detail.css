@@ -185,22 +185,103 @@ background-color: #262626;
                 white-space: normal;
             }
 
-/*<article class="detailmoviecontainer">
-            <div class="detailpostercontainer">
-                <img class="detailmovieposter" src="not-found.jpg">
-            </div>
-            <div class="detailinfocontainer">
-                <p class="detailtmovietitle">Title</p>
-                <div class="genreruntimecontainer">
-                    <p class="genre">Placeholder, Placeholder, Placeholder</p>
-                    <p class="|">|</p>
-                    <p class="runtime">runtime mins</p>
-                </div>
-                <p class="releaseddate">Released date : 14 April 2019</p>
-                <div class="detailratingcontainer">
-                    <div class="detailratingstar"><i class="fa fa-star"></i></div>
-                    <p class="detailtextrating">8.75</p>
-                </div>
-                <p class="detailmovieoverview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit id lectus ut porta. Aenean quis ante tortor. Donec id augue tellus. Phasellus sed feugiat mi. Nulla odio nibh, tempus at tellus a, maximus tincidunt neque. Cras ac diam ex. Nulla ornare tincidunt nisi. Vivamus ac eleifend orci, eget tincidunt metus.</p>
-            </div>
-        </article>*/
+    .Schedules{
+        display: inline-block;
+        width: 550px;
+        box-shadow: 0px 3px 3px #a5a5a5;
+        margin-right: 25px;
+    }
+
+        .textschedules{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 10px 10px 10px;
+        }
+
+        .tableschedules{
+            width: 97%;
+            margin: 10px 10px 10px 10px;
+            font-size: 13px;
+        }
+
+            .tableschedules th{
+                text-align: left;
+                font-weight: bold;
+            }
+
+            .tableschedules tr{
+                border-bottom: 1px solid #808080;
+            }
+
+            .tableschedules td{
+                font-weight: bold;
+            }
+
+            .datevalue{
+                color: #808080;
+            }
+
+            .timevalue{
+                color: #808080;
+            }
+
+            .availableseatsvalue{
+                color: black;
+            }
+
+            .availablebutton{
+                text-align: right;
+            }
+
+                .booknow{
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                }
+
+                    .textbooknow{
+                        display: inline;
+                        color: #0dc4ed;
+                        font-size: 13px;
+                    }
+
+                    .fa-chevron-right{
+                        background-color: #0dc4ed;
+                        width: 20px;
+                        height: 20px;
+                        border: none;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin-left: 3px;
+                        padding: 6px 0px 0px 4px;
+                        color:white;
+                    }
+
+                .notavailable{
+                    display: none;
+                }
+
+                    .textnotavailable{
+                        display: inline;
+                        color: red;
+                        font-size: 13px;
+                    }
+
+                    .fa-times{
+                        background-color: red;
+                        width: 20px;
+                        height: 20px;
+                        border: none;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin-left: 3px;
+                        padding: 6px 0px 0px 4px;
+                        color:white;
+                    }
+
+    .Reviews{
+        display: inline-block;
+        background-color: darksalmon;
+        width: 475px;
+        box-shadow: 0px 3px 3px #a5a5a5;
+    }
