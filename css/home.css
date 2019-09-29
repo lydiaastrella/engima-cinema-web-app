@@ -77,8 +77,9 @@ background-color: #262626;
 
 .maincontainer{
 	margin-top: 40px;
-	margin-left: 10%;
-	margin-right: 90%;
+    overflow-wrap: break-word;
+	margin-left: 150px;
+	margin-right: 150px;
 	padding-left: 5%;
 	padding-right: 5%;
 	background-color: white;
@@ -110,6 +111,9 @@ background-color: #262626;
 
 	.mainlistmoviecontainer{
 		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: left;
 	}
 
 		.mainmoviecontainer{
