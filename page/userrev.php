@@ -34,16 +34,18 @@
 	<div><img src="ddd.png" alt="rating" id="star"></div>
   </div>
   <br>
-  <div class="add">
-    <div><h3 id="addr">Add Review</h3></div>
-	<div><input class="review" type="text" placeholder="Write a review" name="review" required></div>
-  </div>
-  <br>
-  <div class="flex-container">
-    <div><button class="cancel">Cancel</div>
-	<div><button class="submit">Submit</div>
-  </div>
 
+  <form action = "userrev_review.php" method = "post">
+    <div class="add">
+      <div><h3 id="addr">Add Review</h3></div>
+	  <div><input class="review" type="text" placeholder="Write a review" name="review" required></div>
+    </div>
+    <br>
+    <div class="flex-container">
+      <div><button class="cancel">Cancel</div>
+	  <div><input type = "submit" name ="addreview" value = "Submit"></div>
+    </div>
+  </form>
 </div>
 </body>
 </html>
