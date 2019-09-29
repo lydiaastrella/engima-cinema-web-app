@@ -76,3 +76,38 @@ width: 10%;
 height: 100%;
 background-color: #262626;
 }
+
+.maincontainer{
+    margin-top: 40px;
+    overflow-wrap: break-word;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: white;
+	white-space: nowrap;
+}
+
+        .showingresultkeyword{
+            font-size: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 15px 0px 5px 0px;
+        }
+
+        .keyword{
+            font-size:20px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 15px 0px 5px 0px;
+        }
+
+    .totalresult{
+        margin: 0px 0px 10px 0px;
+    }
+
+        .resultsavailable{
+            font-size: 12px;
+            display: inline;
+        }
+
