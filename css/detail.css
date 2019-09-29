@@ -1,0 +1,356 @@
+body {
+	margin: 0;
+	font-family: Lato;
+}
+.navbar {
+	display: block;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	box-shadow: 0px 5px 5px #888888;
+	height: 40px;
+	width: 100%;
+	background-color: white;
+}
+.navbar-box {
+	margin: 0px 150px 0px;
+	padding: 10px;
+}
+
+.navbar #Engi {
+	margin: 0px 0px 0px 50px;
+	float: left;
+	color: #0dc4ed;
+	font-weight: 800;
+}
+
+.navbar #ma{
+	margin: 0px 50px 0px 0px;
+	float: left;
+	font-weight: 800;
+}
+
+.navbar-box input{
+	padding: 6px 0px 6px 6px;
+    border: 1px solid #a5a5a5;
+	border-right: none;
+	border-radius: 4px 0px 0px 4px;
+    font-size: 9px;
+	float: left;
+}
+
+.navbar-box button{
+	padding: 6px 6px 6px 0px;
+	background: white;
+	color: #b7b7b7;
+	font-size: 9px;
+	border: 1px solid #a5a5a5;
+	border-left: none; /* Prevent double borders */
+	border-radius: 0px 4px 4px 0px;
+	cursor: pointer;
+	float: left;
+}
+
+.menu {
+	float: right;
+	margin: 0px 30px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.asideleft{
+position: fixed;
+left: 0;
+width: 10%;
+height: 100%;
+background-color: #262626;
+}
+
+.asideright{
+position: fixed;
+right: 0;
+width: 10%;
+height: 100%;
+background-color: #262626;
+}
+
+.maincontainer{
+	margin-top: 40px;
+	margin-left: 10%;
+	margin-right: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: white;
+	white-space: nowrap;
+}
+
+    .detailmoviecontainer{
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        max-width: 1075px;
+        padding-top: 40px;
+    }
+
+        .detailpostercontainer{
+            float: left;
+        }
+
+            .detailmovieposter{
+                justify-content: center;
+                background-color: #262626;
+                height: 200px;
+                width: 150px;
+                border-radius: 15px;
+            }
+
+        .detailinfocontainer{
+            margin: 5px 150px 5px 10px;
+            width: 1050px;
+        }
+
+            .detailmovietitle{
+                font-size: 20px;
+                padding-left: 140px;
+                margin: 10px 10px 10px 10px;
+                font-weight: bold;
+            }
+
+            .genreruntimecontainer{
+                color: #0dc4ed;
+                font-size: 13px;
+                font-weight: bold;
+                display: inline-flex;
+            }
+
+                .genre{
+                    margin: 5px 5px 5px 10px;
+                }
+
+                .divider{
+                    margin: 5px 5px 5px 5px;
+                }
+
+                .runtime{
+                    margin: 5px 5px 5px 5px;
+                }
+
+            .releaseddate{
+                color: #808080;
+                font-size: 13px;
+                font-weight: bold;
+                padding-left: 140px;
+                margin: 10px 10px 10px 10px;
+            }
+
+            .detailratingcontainer{
+                display: inline-flex;
+            }
+
+                .detailratingstar{
+                    display:inline;
+                    margin: 0px 10px 5px 3px;
+                }
+
+                .fa-star{
+                    color: #fdbb02;
+                    margin-right: 7px;
+                    padding-left: 10px;
+                }
+
+                .detailtextrating{
+                    font-weight: bold;
+                    font-size: 15px;
+                    color: #757575;
+                    margin: 2px 0px 5px 0px;
+                }
+
+                .detail10rating{
+                    font-size: 12px;
+                    color: #a5a5a5;
+                    margin: 5px 0px 3px 0px;
+                }
+
+            .detailmovieoverview{
+                font-size: 15px;
+                padding-left: 10px;
+                margin: 5px 5px 50px 5px;
+                max-width: 910px;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                max-lines: 3;
+                overflow-x: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
+            }
+
+    .Schedules{
+        display: inline-block;
+        width: 550px;
+        box-shadow: 0px 3px 3px #a5a5a5;
+        margin-right: 25px;
+    }
+
+        .textschedules{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 10px 10px 10px;
+        }
+
+        .tableschedules{
+            border-bottom: 1px solid;
+            border-bottom-color: #808080;
+            width: 97%;
+            margin: 10px 10px 10px 10px;
+            font-size: 13px;
+        }
+
+            .tableschedules th{
+                text-align: left;
+                font-weight: bold;
+                border-bottom: 1px solid;
+                border-bottom-color: #808080;
+            }
+
+            .tableschedules tr{
+                
+            }
+
+            .tableschedules td{
+                font-weight: bold;
+            }
+
+            .datevalue{
+                color: #808080;
+            }
+
+            .timevalue{
+                color: #808080;
+            }
+
+            .availableseatsvalue{
+                color: black;
+            }
+
+            .availablebutton{
+                text-align: right;
+            }
+
+                .booknow{
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                }
+
+                    .textbooknow{
+                        display: inline;
+                        color: #0dc4ed;
+                        font-size: 13px;
+                    }
+
+                    .fa-chevron-right{
+                        background-color: #0dc4ed;
+                        width: 20px;
+                        height: 20px;
+                        border: none;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin-left: 3px;
+                        padding: 6px 0px 0px 4px;
+                        color:white;
+                    }
+
+                .notavailable{
+                    display: none;
+                }
+
+                    .textnotavailable{
+                        display: inline;
+                        color: red;
+                        font-size: 13px;
+                    }
+
+                    .fa-times{
+                        background-color: red;
+                        width: 20px;
+                        height: 20px;
+                        border: none;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin-left: 3px;
+                        padding: 6px 0px 0px 4px;
+                        color:white;
+                    }
+
+    .Reviews{
+        display: inline-block;
+        width: 475px;
+        box-shadow: 0px 3px 3px #a5a5a5;
+    }
+
+        .textreviews{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 10px 10px 10px;
+        }
+
+        .reviewcontainer{
+            margin: 10px 10px 10px 10px;
+            width: 97%;
+            border-bottom: 1px solid;
+            border-bottom-color: #808080;
+        }
+
+            .reviewpicturecontainer{
+                vertical-align: top;
+                padding-top: 10px;
+            }
+
+                .reviewpicture{
+                    justify-content: center;
+                    background-color: #262626;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                }
+
+            .reviewinfocontainer{
+                margin: 5px 150px 5px 10px;
+            }
+
+                .reviewname{
+                    margin: 5px 10px 0px 10px;
+                    font-weight: bold;
+                    color: #757575;
+                }
+
+                .reviewratingcontainer{
+                    display: inline-flex;
+                    margin-bottom: 5px;
+                }
+
+                    .reviewratingstar{
+                        float: left;
+                        margin: 0px 3px 0px 3px;
+                    }
+
+                    .reviewtextrating{
+                        font-size: 12px;
+                        color: #808080;
+                        margin: 2px 0px 5px 0px;
+                    }
+
+                .reviewmessage{
+                    color: #757575;
+                    font-size: 13px;
+                    margin: 5px 0px 5px 0px;
+                    padding-left: 10px;
+                    max-width: 910px;
+                    overflow-wrap: break-word;
+                    word-wrap: break-word;
+                    max-lines: 3;
+                    overflow-x: hidden;
+                    text-overflow: ellipsis;
+                    white-space: normal;
+                }
