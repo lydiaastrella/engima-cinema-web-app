@@ -30,6 +30,19 @@ h2, h3 {
 	justify-content: center;
 }
 
+.full-seat {
+  border: 1.5px solid #888888;
+  border-radius: 2px;
+  margin: 5px;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  color: #888888;
+  background-color: #cccccc;
+}
 .empty-seat {
   border: 1.5px solid #00C4EA;
   border-radius: 2px;
