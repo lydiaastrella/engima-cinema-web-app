@@ -1,0 +1,22 @@
+.film-box {
+	background-color: #ffffff;
+	height: 150px;
+	padding: 10px;
+	border-bottom: 1px solid #888888;
+}
+
+.film-box > img {
+	display: inline-block;
+	height: 100%;
+	margin-right: 25px;
+	width: 15%;
+	float: left;
+}
+
+.film-box > h3 {
+	line-height: 0em;
+}
+
+.schedule_text {
+	color: #00C4EA;
+}
