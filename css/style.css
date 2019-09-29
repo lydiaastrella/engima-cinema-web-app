@@ -22,6 +22,17 @@ body {
 	margin: 0px 30px 0px;
 	font-size: 14px;
 }
+
+.navbar-box a { 
+	color: #212121;
+	text-decoration: none;
+}
+
+.navbar-box a:hover, .navbar-box a:visited, .navbar.box a:active .navbar.box a:link { 
+	color: #212121;
+	text-decoration: none;
+}
+
 .container {
 	background-color: #212121;
 	min-height: 550px;
