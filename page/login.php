@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel = "stylesheet" href="style1.css">
+    <link rel = "stylesheet" href="../css/style1.css">
 	<script type="text/javascript" src="../js/cookie.js"></script>
 </head>
 
 <body>
-<form id = 'emailid' action = "login_handler.php" method = "post">
+<form id = 'emailid' action = "../php/login_handler.php" method = "post">
   <div class= "head1">
     <p>Welcome to <strong>Engi</strong>ma!</p>
   </div>
