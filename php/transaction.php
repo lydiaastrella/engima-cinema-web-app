@@ -1,4 +1,10 @@
 <?php
+	/*
+	if (!isset($_COOKIE[$username])) {
+		header("Location: login.php"); 
+		exit();
+	} */
+
 	function stringMonth($number_month) {
 		switch ($number_month) {
 			case 1: return "January"; break;
@@ -17,6 +23,8 @@
 		}
 	}
 
+	//$login_username = $_COOKIE[$username];
+	$login_username = 'ekasunandika@gmail.com';
 	$servername = 'localhost';
 	$username = 'root';
 	$password = '';
@@ -31,9 +39,8 @@
 	}
 
 	$general = $conn->query(
-	"select * from film, film_schedule, transaction, schedule_time where 
-	film.id_film = film_schedule.id_film AND film_schedule.id_schedule = transaction.id_schedule AND film_schedule.id_schedule = schedule_time.id_schedule");
-
+	"select * from film, film_schedule, transaction, schedule_time, user where
+	film.id_film = film_schedule.id_film AND film_schedule.id_schedule = transaction.id_schedule AND film_schedule.id_schedule = schedule_time.id_schedule AND transaction.username = user.username AND user.email = '".$login_username."'");
 	$local_time = getdate();
 	$menit_local = $local_time['minutes'];
 	$jam_local = $local_time['hours'];
@@ -55,15 +62,15 @@
 	    	$menit = (int) $time_result[1];
 	    	$bulan_huruf = stringMonth($bulan);
 	    	$selisih = ($menit + 60*$jam + 60*24*$hari + 60*24*30*$bulan + 60*24*30*($tahun - 1900) - $menit_local - 60*$jam_local - 60*24*$hari_local - 60*24*30*$bulan_local - 60*24*30*($tahun_local - 1900));
-	        echo "<div class='film-box'><img src='".$row['film_photo']."'><h3>".$row['title']."</h3><span><a class='schedule_text'>Schedule: </a><a>".$bulan_huruf." "."$hari".", ".$tahun." - ".$row['time']."</a></span></div>"; 
+	        echo "<div class='film-box'><img src='".$row['film_photo']."'><h3>".$row['title']."</h3><span><a class='schedule_text'>Schedule: </a><a>".$bulan_huruf." "."$hari".", ".$tahun." - ".$row['time']."</a></span>"; 
 	        if ($selisih <= 0) {
 	        	$review = $conn->query('select * from review, film where film.id_film = review.id_film');
 	        	if ($review->num_rows == 0) {
 	        		echo '<button class="add_review" id="add_review">Add review</button>';
 	        	}
 	        	else {
-	        		echo '<button class="edit_review" id="edit_review">Edit review</button>
-	        		<button class="edit_review" id="delete_review">Delete review</button>';
+	        		echo '<p>Your review has been submitted</p><br><button class="edit_review" id="edit_review">Edit review</button>
+	        		<button class="edit_review" id="delete_review">Delete review</button></div>';
 	        	}
 	        }
 	    }
