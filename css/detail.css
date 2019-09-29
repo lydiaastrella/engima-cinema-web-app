@@ -199,6 +199,8 @@ background-color: #262626;
         }
 
         .tableschedules{
+            border-bottom: 1px solid;
+            border-bottom-color: #808080;
             width: 97%;
             margin: 10px 10px 10px 10px;
             font-size: 13px;
@@ -207,10 +209,12 @@ background-color: #262626;
             .tableschedules th{
                 text-align: left;
                 font-weight: bold;
+                border-bottom: 1px solid;
+                border-bottom-color: #808080;
             }
 
             .tableschedules tr{
-                border-bottom: 1px solid #808080;
+                
             }
 
             .tableschedules td{
@@ -281,7 +285,72 @@ background-color: #262626;
 
     .Reviews{
         display: inline-block;
-        background-color: darksalmon;
         width: 475px;
         box-shadow: 0px 3px 3px #a5a5a5;
     }
+
+        .textreviews{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 10px 10px 10px;
+        }
+
+        .reviewcontainer{
+            margin: 10px 10px 10px 10px;
+            width: 97%;
+            border-bottom: 1px solid;
+            border-bottom-color: #808080;
+        }
+
+            .reviewpicturecontainer{
+                vertical-align: top;
+                padding-top: 10px;
+            }
+
+                .reviewpicture{
+                    justify-content: center;
+                    background-color: #262626;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                }
+
+            .reviewinfocontainer{
+                margin: 5px 150px 5px 10px;
+            }
+
+                .reviewname{
+                    margin: 5px 10px 0px 10px;
+                    font-weight: bold;
+                    color: #757575;
+                }
+
+                .reviewratingcontainer{
+                    display: inline-flex;
+                    margin-bottom: 5px;
+                }
+
+                    .reviewratingstar{
+                        float: left;
+                        margin: 0px 3px 0px 3px;
+                    }
+
+                    .reviewtextrating{
+                        font-size: 12px;
+                        color: #808080;
+                        margin: 2px 0px 5px 0px;
+                    }
+
+                .reviewmessage{
+                    color: #757575;
+                    font-size: 13px;
+                    margin: 5px 0px 5px 0px;
+                    padding-left: 10px;
+                    max-width: 910px;
+                    overflow-wrap: break-word;
+                    word-wrap: break-word;
+                    max-lines: 3;
+                    overflow-x: hidden;
+                    text-overflow: ellipsis;
+                    white-space: normal;
+                }
