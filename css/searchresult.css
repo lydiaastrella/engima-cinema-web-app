@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+	font-family: Lato;
+}
+.navbar {
+	display: block;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	box-shadow: 0px 5px 5px #888888;
+	height: 40px;
+	width: 100%;
+	background-color: white;
+}
+.navbar-box {
+	margin: 0px 150px 0px;
+	padding: 10px;
+}
+
+.navbar #Engi {
+	margin: 0px 0px 0px 50px;
+	float: left;
+	color: #0dc4ed;
+	font-weight: 800;
+}
+
+.navbar #ma{
+	margin: 0px 50px 0px 0px;
+	float: left;
+	font-weight: 800;
+}
+
+.navbar-box input{
+	padding: 6px 0px 6px 6px;
+    border: 1px solid #a5a5a5;
+	border-right: none;
+	border-radius: 4px 0px 0px 4px;
+    font-size: 9px;
+	float: left;
+}
+
+.navbar-box button{
+	padding: 6px 6px 6px 0px;
+	background: white;
+	color: #b7b7b7;
+	font-size: 9px;
+	border: 1px solid #a5a5a5;
+	border-left: none; /* Prevent double borders */
+	border-radius: 0px 4px 4px 0px;
+	cursor: pointer;
+	float: left;
+}
+
+.menu {
+	float: right;
+	margin: 0px 30px 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.asideleft{
+position: fixed;
+left: 0;
+width: 10%;
+height: 100%;
+background-color: #262626;
+}
+
+.asideright{
+position: fixed;
+right: 0;
+width: 10%;
+height: 100%;
+background-color: #262626;
+}
+
+.maincontainer{
+    margin-top: 40px;
+    overflow-wrap: break-word;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: white;
+	white-space: nowrap;
+}
+
+        .showingresultkeyword{
+            font-size: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 15px 0px 5px 0px;
+        }
+
+        .keyword{
+            font-size:20px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 15px 0px 5px 0px;
+        }
+
+    .totalresult{
+        margin: 0px 0px 10px 0px;
+    }
+
+        .resultsavailable{
+            font-size: 12px;
+            display: inline;
+        }
+
+    .resultcontainer{
+        height: fit-content;
+        padding: 5px;
+        max-width: 1075px;
+    }
+
+        .resultpostercontainer{
+            float: left;
+        }
+
+            .resultmovieposter{
+                justify-content: center;
+                background-color: #262626;
+                height: 170px;
+                width: 140px;
+                border-radius: 15px;
+            }
+
+        .resultinfocontainer{
+            margin: 5px 150px 5px 10px;
+            width: 1050px;
+        }
+
+            .resultmovietitle{
+                padding-left: 130px;
+                margin: 10px 10px 10px 10px;
+                font-weight: bold;
+            }
+
+            .resultratingcontainer{
+                display: inline-flex;
+            }
+                
+                .resultstarrating{
+                    display:inline;
+                    margin: 0px 10px 5px 3px;
+                }
+
+                .fa-star{
+                    color: #fdbb02;
+                    margin-right: 7px;
+                    padding-left: 10px;
+                }
+
+                .resulttextrating{
+                    font-size: 12px;
+                    color: #808080;
+                    margin: 2px 0px 5px 0px;
+                }
+
+            .resultmovieoverview{
+                padding-left: 10px;
+                max-width: 910px;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                max-lines: 3;
+                overflow-x: hidden;
+                text-overflow: ellipsis;
+                white-space: normal;
+            }
+
+            .viewdetail{
+                float: right;
+                background-color: transparent;
+                outline: none;
+                border: none;
+            }
+
+            .textviewdetail{
+                display: inline;
+                color: #0dc4ed;
+            }
+
+            .fa-chevron-right{
+                background-color: #0dc4ed;
+                width: 20px;
+                height: 20px;
+                border: none;
+                border-radius: 50%;
+                text-align: center;
+                margin-left: 3px;
+                padding: 6px 0px 0px 4px;
+                color:white;
+            }
+
+            hr{
+                margin-top: 50px;
+            }
+
+        footer{
+            text-align: center;
+        }
+
+            .pagebuttoncontainer{
+                display: inline-block;
+            }
+
+                .Back{
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    color: #0dc4ed;
+                }
+
+                .pagebox{
+                    background: transparent;
+                    color: #0dc4ed;
+                    border-color: #0dc4ed;
+                    border-radius: 5px;
+                }
+
+                .Next{
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    color: #0dc4ed;
+                }
