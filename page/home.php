@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head>
 	<title>Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -36,20 +35,7 @@
 		</article>
 		
 		<article class="mainlistmoviecontainer">
-			<table class="mainmoviecontainer">
-				<tr>
-					<td><img class="mainmovieposter" src="not-found.jpg"></td>
-				</tr>
-				<tr>
-					<td><p class="mainmovietitle">Title</p></td>
-				</tr>
-				<tr>
-					<td><div class="mainratingcontainer">
-						<p class="ratingstar"><i class="fa fa-star"></i><p>
-						<p class="textrating">8.75</p>
-					</div></td>
-				</tr>
-			</table>
+			<?php include('../php/home.php') ?>
 		</article>
 	</section>
 </body>

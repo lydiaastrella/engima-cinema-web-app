@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	font-family: Railway, Lato;
+}
+.navbar {
+	display: block;
+	overflow: hidden;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	box-shadow: 0px 2px 5px #888888;
+	height: 40px;
+	width: 100%;
+	background-color: white;
+}
+.navbar-box {
+	margin: 0px 150px 0px;
+	padding: 10px;
+}
+.menu {
+	float: right;
+	margin: 0px 30px 0px;
+	font-size: 14px;
+}
+
+.navbar-box a { 
+	color: #212121;
+	text-decoration: none;
+}
+
+.navbar-box a:hover, .navbar-box a:visited, .navbar.box a:active .navbar.box a:link { 
+	color: #212121;
+	text-decoration: none;
+}
+
+.container {
+	background-color: #212121;
+	min-height: 550px;
+}
+.content {
+	margin: 10px 100px 10px;
+	padding: 90px 70px;
+	min-height: 400px;
+	background-color: white;
+}
+#logo {
+	margin: 0px 50px 0px;
+	font-size: 18px;
+}
+
+#logo strong {
+	color: #00C4EA;
+}
+
+#search-bar {
+	text-decoration: none;
+	width: 200px;
+}
