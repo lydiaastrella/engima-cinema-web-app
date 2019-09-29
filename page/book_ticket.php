@@ -39,6 +39,14 @@
 			</div>
 		</div>
 	</div>
+	<div id="modal_box">
+		<div id="modal_content">
+			<span class="close">&times;</span>
+			<h2>Payment Success!</h2>
+    		<p>Thank you for purchasing! You can view your purchase now.</p>
+    		<button id="go-to-transaction">Go to transaction history</button>
+    	</div>
+	</div>
 	<script src="../js/book_ticket.js"></script>
 </body>
 </html>

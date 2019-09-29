@@ -68,5 +68,18 @@ function seatClick(number_seat) {
 	}
 }
 
+var buy_button = document.getElementById("buy-ticket-button");
+var close_button = document.getElementsByClassName("close")[0];
+var go_to_transaction = document.getElementById("go-to-transaction");
+buy_button.onclick = function() {
+  modal_box.style.display = "block";
+}
+close_button.addEventListener(
+	"click", function() {location.href='transaction.php'}
+);
+go_to_transaction.addEventListener(
+	"click", function() {location.href='transaction.php'}
+);
+
 setCookie("is_seat_selected", 0, 1);
 setCookie("seat_selected", 0, 1);

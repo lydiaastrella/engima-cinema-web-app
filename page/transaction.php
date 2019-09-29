@@ -20,5 +20,6 @@
 			<?php include('../php/transaction.php') ?>
 		</div>
 	</div>
+</div>
 </body>
 </html>
