@@ -36,7 +36,7 @@
     </div>
 	<input type="submit" name = "create" value = "Submit">
     <div>
-	  <p style="text-align:center;"><b>Already have account? <a href="//www.google.com">Login here</a></b></p>
+	  <p style="text-align:center;"><b>Already have account? <a href="../login/login.php">Login here</a></b></p>
 	</div>
   </div>
 </form>
